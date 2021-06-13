@@ -44,15 +44,15 @@ $(document).ready(function(){
 
 //validation at sign in
 
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Please enter a valid email address");
-    return false;
-  }
-  var x = document.forms["myForm"]["fpassword"].value;
-  if (x == "") {
-    alert("Password is incorrect. Try Again");
-    return false;
-} 
-}
+// function validateForm() {
+//   var x = document.forms["myForm"]["fname"].value;
+//   if (x == "") {
+//     alert("Please enter a valid email address");
+//     return false;
+//   }
+//   var x = document.forms["myForm"]["fpassword"].value;
+//   if (x == "") {
+//     alert("Password is incorrect. Try Again");
+//     return false;
+// } 
+// }
