@@ -1,0 +1,243 @@
+﻿body {
+    align-items: center;
+    background-color: #D46363;
+    background: linear-gradient(#D46363, #ffffff);
+    /*display:grid;*/
+}
+
+/*TO BE DELETED*/
+.col{
+    outline-color: black;
+    outline-style: solid;
+}
+
+.nav-link{
+    color: black;
+}
+
+/*INDEX PAGE - SIGN IN CSS*/
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 20vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: 50px auto;
+    display:block;
+}
+
+.logo{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+    display:block;
+
+}
+
+.logo_2{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+
+}
+
+.please{
+    text-align:center;
+    margin:10px 10px 10px 10px;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.mb-3{
+    margin-top:40px;
+    text-align:center;
+    padding: 10px;
+    margin: auto;
+    display:block;
+
+}
+.form-control{
+    outline-color: black;
+    outline-style: solid;
+    max-width:fit-content;
+    margin: 10px auto;
+    display: block;
+
+}
+
+.btn{
+    margin: auto;
+    display: block;
+}
+
+.fa:hover {
+    opacity: 0.7;
+} 
+
+.fa {
+    padding: 20px;
+    margin: 10px;
+    font-size: 100px;
+    width: 60px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #ee4abd;
+    color: white;
+  }
+
+
+
+/* BOOKER PROFILE CSS*/
+.fol{
+    text-align: center;
+    padding:20px;
+}
+  .details_title,.projects,.followers,.following{
+    font-family: 'Fredericka the Great', cursive;
+    /*text-align:;*/
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+  }
+
+
+
+  /*.details{
+      text-align:;
+  }*/
+
+  /*FOLLOW BUTTON
+  code utilised from :https://codepen.io/lifeofmle/pen/mAKli */
+
+  #follow-button {
+    color: #000000;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    background-color: #ff0077;
+    border: 1px solid;
+    border-color: #ff0077;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    position:inherit;
+    top: 50px;
+    left: 50px;	
+    cursor: hand;		    
+  }
+  
+
+  .booker_name{
+    font-family: 'Fredericka the Great', cursive;
+    text-align:center;
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+
+  }
+
+.bio_title{
+    font-family: 'Fredericka the Great', cursive;
+    text-align:center;
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+}
+
+
+
+.worked_with, .favorites, .spotify_list{
+    font-family: 'Fredericka the Great', cursive;
+    text-align:center;
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+}
+/*This media query did not work - not sure why yet.
+Probably something to do with how bootstrap is responding*/
+/*
+@media screen and (max-width:600px){
+    .col{
+        display: block;
+    }
+}*/
+
+
+
+
+
+/*BAND PROFILE CSS*/
+.band_name{
+    font-family: 'Fredericka the Great', cursive;
+    text-align:center;
+    font-size: 5vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.band_photo{
+    text-align:center;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.mini_bio{
+    text-align:center;
+}
+
+.music_player{
+    text-align:center;
+}
+
+.title,.press,.discography,.calendar_title,.gig_history, .playlist{
+    font-family: 'Fredericka the Great', cursive;
+    text-align:center;
+    font-size: 2vw;
+    /*outline-color: black;
+    outline-style: solid;*/
+    font-stretch:normal;
+    margin: auto;
+    outline-color: black;
+    outline-style: solid;
+}
+/*FOOTER CSS*/
+
+.by{
+    text-align: center;
+}
